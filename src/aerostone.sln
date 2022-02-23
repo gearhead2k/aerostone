@@ -7,6 +7,10 @@ Project("{54A90642-561A-4BB1-A94E-469ADEE60C69}") = "web-angular", "clients\web-
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Clients", "Clients", "{0B41B6C1-6E4F-4A41-8A5F-E477BA4565FA}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "tempbackend", "tempbackend", "{0F0B8407-3E80-4E6B-8037-6126A5E05778}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AngularNetCoreDemo", "AngularNetCoreDemo\AngularNetCoreDemo.csproj", "{2441A1A2-27AB-41FD-A1AB-488CFB2D4A1A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,12 +23,17 @@ Global
 		{36E01997-419E-4B02-8E59-A2887E05C5F4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{36E01997-419E-4B02-8E59-A2887E05C5F4}.Release|Any CPU.Build.0 = Release|Any CPU
 		{36E01997-419E-4B02-8E59-A2887E05C5F4}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{2441A1A2-27AB-41FD-A1AB-488CFB2D4A1A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2441A1A2-27AB-41FD-A1AB-488CFB2D4A1A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2441A1A2-27AB-41FD-A1AB-488CFB2D4A1A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2441A1A2-27AB-41FD-A1AB-488CFB2D4A1A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
 		{36E01997-419E-4B02-8E59-A2887E05C5F4} = {0B41B6C1-6E4F-4A41-8A5F-E477BA4565FA}
+		{2441A1A2-27AB-41FD-A1AB-488CFB2D4A1A} = {0F0B8407-3E80-4E6B-8037-6126A5E05778}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {09938DAF-B032-4178-B656-72784B911AA6}
